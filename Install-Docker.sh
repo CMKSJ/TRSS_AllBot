@@ -13,7 +13,7 @@ DIR="${DIR:-$HOME/TRSS_AllBot}"
 CMD="${CMD:-tsab}"
 CMDPATH="${CMDPATH:-/usr/local/bin}"
 DKNAME="${DKNAME:-TRSS_AllBot}"
-DKURL="${DKURL:-docker.fxxk.dedyn.io}"
+DKURL="${DKURL:-docker.1panel.live}"
 abort(){ echo "
 $R! $@$O";exit 1;}
 mktmp(){ TMP="$DIR/tmp"&&rm -rf "$TMP"&&mkdir -p "$TMP"||abort "缓存目录创建失败";}
@@ -79,7 +79,7 @@ $R! 下载失败，5秒后切换镜像源$O"
   sleep 5
   ((N++))
   case "$N" in
-    1)DKURL="docker.fxxk.dedyn.io";;
+    1)DKURL="docker.1panel.live";;
     2)DKURL="mirror.ccs.tencentyun.com";;
     3)DKURL="dockerhub.timeweb.cloud";;
     4)DKURL="mirror.baidubce.com";;
