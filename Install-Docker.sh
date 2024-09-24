@@ -77,7 +77,7 @@ $R! 下载失败，5秒后切换镜像源$O"
   sleep 5
   ((N++))
   case "$N" in
-    1)DKURL="docker.1panel.live";;
+    1)DKURL="https://docker.1panel.live";;
     2)DKURL="mirror.ccs.tencentyun.com";;
     3)DKURL="dockerhub.timeweb.cloud";;
     4)DKURL="mirror.baidubce.com";;
