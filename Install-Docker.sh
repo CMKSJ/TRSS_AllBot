@@ -13,7 +13,7 @@ DIR="${DIR:-$HOME/TRSS_AllBot}"
 CMD="${CMD:-tsab}"
 CMDPATH="${CMDPATH:-/usr/local/bin}"
 DKNAME="${DKNAME:-TRSS_AllBot}"
-DKURL="${DKURL:-docker.1panel.live}"
+DKURL="${DKURL:-f2e9fcc61d9d439baaeefa3511cc5297.mirror.swr.myhuaweicloud.com}"
 abort(){ echo "
 $R! $@$O";exit 1;}
 mktmp(){ TMP="$DIR/tmp"&&rm -rf "$TMP"&&mkdir -p "$TMP"||abort "缓存目录创建失败";}
